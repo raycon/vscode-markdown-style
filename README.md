@@ -24,9 +24,7 @@ Edit `Settings.json` in [Settings File Location](https://code.visualstudio.com/D
 
 ```json
 "markdown.styles": [
-    // For light theme
     "[YOUR_PATH]/vscode-markdown-css/markdown-github.css",
-    // For dark theme
     "[YOUR_PATH]/vscode-markdown-css/markdown-material.css"
 ]
 ```
