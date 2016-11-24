@@ -1,0 +1,58 @@
+@import url('css/common.css');
+
+/* Background, Text */
+.vscode-dark {
+    color: #ABB2BF;
+    background: #282C34;
+}
+
+/* Link */
+.vscode-dark a {
+    color:#DF6A73;
+}
+
+/* Inline Code */
+.vscode-dark code {
+    color: #90C378;
+    background-color: #2C323C;
+}
+
+/* Block Code */
+.vscode-dark pre,
+.vscode-dark .highlight pre {
+  background-color:#2C323C;
+}
+
+/* Block Code Text */
+.vscode-dark pre code {
+    color: #ABB2BF;
+}
+
+/* Heading Border */
+.vscode-dark h1,
+.vscode-dark h2 {
+    border-color: #2C323C;
+}
+
+/* Heading Text */
+.vscode-dark h1,
+.vscode-dark h2,
+.vscode-dark h3,
+.vscode-dark h4,
+.vscode-dark h5,
+.vscode-dark h6 {
+    color:#61AFEF;
+}
+
+/* Table Border */
+.vscode-dark table>thead>tr>th,
+.vscode-dark table>tbody>tr+tr>td {
+    border-color: #2C323C;
+}
+
+/* Blockquote */
+.vscode-dark blockquote {
+    color: #D2945D;
+    border-left: 0.25em solid #2C323C;
+    background: transparent;
+}

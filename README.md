@@ -1,18 +1,20 @@
 # vscode-markdown-css
 
-> GitHub flavored markdown theme for vscode
+> VSCode markdown css theme based on [@sinderesorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
 
 ## Files
 
-- `github-markdown.css` from [@sinderesorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
+```text
+vscode-markdown-css
+ ├ css
+ │  ├ github-markdown.css    : .markdown-body class removed.
+ │  └ common.css             : Common styles.
+ │
+ ├ markdown-github.css       : LIGHT/DARK/HIGH
+ └ markdown-material.css     : DARK
+```
 
-The only change I made was to remove top level `.markdown-body` class from `github-markdown.css`
-
-- `vscode-markdown.css`
-
-It defines several classes to customize colors in light, dark and high-contrast themes. I override attributes by using values from `github-markdown.css`
-
-## Getting Started
+## Usage
 
 Copy files to your computer.
 
@@ -20,10 +22,11 @@ Copy files to your computer.
 
 Edit `Settings.json` in [Settings File Location](https://code.visualstudio.com/Docs/customization/userandworkspace#_settings-file-locations)
 
-    "markdown.styles": [
-        "C:\\[YOUR_PATH]\\vscode-markdown-css\\github-markdown.css",
-        "C:\\[YOUR_PATH]\\vscode-markdown-css\\vscode-markdown.css"
-    ]
+```json
+"markdown.styles": [
+    "[YOUR_PATH]/vscode-markdown-css/markdown-github.css"
+]
+```
 
 Restart VS Code
 
