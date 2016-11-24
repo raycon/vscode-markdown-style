@@ -1,91 +1,57 @@
 @import url('css/common.css');
 
 /* Background, Text */
-.vscode-light,
-.vscode-dark,
-.vscode-high-contrast {
+.vscode-light {
     color: #333;
     background: #FFF;
 }
 
 /* Link */
-.vscode-dark a,
-.vscode-light a,
-.vscode-high-contrast a {
+.vscode-light a {
     color:#4078c0;
 }
 
 /* Inline Code */
-.vscode-dark code,
-.vscode-light code,
-.vscode-high-contrast code {
+.vscode-light code {
     color: #333;
     background-color: transparent;
 }
 
 /* Block Code */
-.vscode-dark pre,
-.vscode-dark .highlight pre,
 .vscode-light pre,
-.vscode-light .highlight pre,
-.vscode-high-contrast pre,
-.vscode-high-contrast .highlight pre {
+.vscode-light .highlight pre {
     background-color:trasparent;
 }
 
 /* Block Code Text */
-.vscode-dark pre code,
-.vscode-light pre code,
-.vscode-high-contrast pre code {
+.vscode-light pre code {
     color: #333;
 }
 
 /* Heading Border */
-.vscode-dark h1,
-.vscode-dark h2,
 .vscode-light h1,
-.vscode-light h2,
-.vscode-high-contrast h1,
-.vscode-high-contrast h2 {
+.vscode-light h2 {
     border-color: #eee;
 }
 
 /* Heading Text */
-.vscode-dark h1,
-.vscode-dark h2,
-.vscode-dark h3,
-.vscode-dark h4,
-.vscode-dark h5,
-.vscode-dark h6,
 .vscode-light h1,
 .vscode-light h2,
 .vscode-light h3,
 .vscode-light h4,
 .vscode-light h5,
-.vscode-light h6,
-.vscode-high-contrast h1,
-.vscode-high-contrast h2,
-.vscode-high-contrast h3,
-.vscode-high-contrast h4,
-.vscode-high-contrast h5,
-.vscode-high-contrast h6 {
+.vscode-light h6 {
     color:#333;
 }
 
 /* Table Border */
-.vscode-dark table>thead>tr>th,
-.vscode-dark table>tbody>tr+tr>td,
 .vscode-light table>thead>tr>th,
-.vscode-light table>tbody>tr+tr>td,
-.vscode-high-contrast table>thead>tr>th,
-.vscode-high-contrast table>tbody>tr+tr>td {
+.vscode-light table>tbody>tr+tr>td {
     border-color: #ddd;
 }
 
 /* Blockquote */
-.vscode-dark blockquote,
-.vscode-light blockquote,
-.vscode-high-contrast blockquote {
+.vscode-light blockquote {
     color: #777;
     border-left: 0.25em solid #ddd;
     background: transparent;

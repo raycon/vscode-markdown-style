@@ -10,7 +10,7 @@ vscode-markdown-css
  │  ├ github-markdown.css    : .markdown-body class removed.
  │  └ common.css             : Common styles.
  │
- ├ markdown-github.css       : LIGHT/DARK/HIGH
+ ├ markdown-github.css       : LIGHT
  └ markdown-material.css     : DARK
 ```
 
@@ -24,7 +24,10 @@ Edit `Settings.json` in [Settings File Location](https://code.visualstudio.com/D
 
 ```json
 "markdown.styles": [
-    "[YOUR_PATH]/vscode-markdown-css/markdown-github.css"
+    // For light theme
+    "[YOUR_PATH]/vscode-markdown-css/markdown-github.css",
+    // For dark theme
+    "[YOUR_PATH]/vscode-markdown-css/markdown-material.css"
 ]
 ```
 
