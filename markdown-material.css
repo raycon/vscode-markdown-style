@@ -1,9 +1,28 @@
 @import url('css/common.css');
 
-/* Background, Text */
+/* Default */
 .vscode-dark {
+    font-size:14px;
     color: #ABB2BF;
     background: #282C34;
+}
+
+/* Font */
+.vscode-dark code,
+.vscode-dark kbd,
+.vscode-dark pre,
+.vscode-dark .highlight pre {
+    font-size:1em;
+}
+
+/* Heading */
+.vscode-dark h1,
+.vscode-dark h2,
+.vscode-dark h3,
+.vscode-dark h4,
+.vscode-dark h5,
+.vscode-dark h6 {
+    color:#61AFEF;
 }
 
 /* Link */
@@ -14,37 +33,28 @@
 /* Inline Code */
 .vscode-dark code {
     color: #90C378;
-    background-color: #2C323C;
 }
 
 /* Block Code */
-.vscode-dark pre,
-.vscode-dark .highlight pre {
-  background-color:#2C323C;
-}
-
-/* Block Code Text */
 .vscode-dark pre code {
     color: #ABB2BF;
 }
 
-/* Heading Border */
+/* Heading */
 .vscode-dark h1,
 .vscode-dark h2 {
     border-color: #2C323C;
 }
 
-/* Heading Text */
-.vscode-dark h1,
-.vscode-dark h2,
-.vscode-dark h3,
-.vscode-dark h4,
-.vscode-dark h5,
-.vscode-dark h6 {
-    color:#61AFEF;
+/* Background */
+.vscode-dark hr,
+.vscode-dark code,
+.vscode-dark pre,
+.vscode-dark .highlight pre {
+    background-color:#2C323C;
 }
 
-/* Table Border */
+/* Table */
 .vscode-dark table>thead>tr>th,
 .vscode-dark table>tbody>tr+tr>td {
     border-color: #2C323C;
