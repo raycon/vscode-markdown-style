@@ -1,0 +1,44 @@
+.vscode-dark a {
+    color:#DF6A73;
+}
+
+.vscode-dark h1,
+.vscode-dark h2,
+.vscode-dark h3,
+.vscode-dark h4,
+.vscode-dark h5,
+.vscode-dark h6 {
+    color:#61AFEF;
+}
+
+.vscode-dark {
+	color: #ABB2BF;
+}
+
+.vscode-dark code {
+	color: #90C378;
+}
+
+.vscode-dark code > div {
+	background-color: #2C323C;
+}
+
+.vscode-dark pre code {
+    color: #ABB2BF;
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: #2C323C;
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: #2C323C;
+}
+
+.vscode-dark blockquote {
+    color: #D2945D;
+	background: transparent;
+	border-color: #2C323C;
+}

@@ -1,0 +1,34 @@
+.vscode-light {
+	color: #333;
+}
+
+.vscode-light a {
+	color: #2980b9;
+}
+
+.vscode-light code {
+	color: #c0392b;
+}
+
+.vscode-light code>div {
+	color: #333;
+	background-color: #f8f8f8;
+	font-weight: normal;
+}
+
+.vscode-light table>thead>tr>th {
+	border-color: #ddd;
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table>tbody>tr+tr>td {
+	border-color: #eee;
+}
+
+.vscode-light blockquote {
+	padding: 0 1em;
+	color: #777;
+	border-left: 0.25em solid #ddd;
+	background: transparent;
+}
