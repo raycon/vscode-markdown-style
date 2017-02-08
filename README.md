@@ -23,9 +23,9 @@ Themes are based on VSCode's markdown default styles
 
 ## Preview
 
-![markdown-light](images/markdown-light.png =200x)
-![markdown-github](images/markdown-github.png =200x)
-![markdown-dark-material](images/markdown-dark-material.png =200x)
+<img src="images/markdown-light.png" width="200">
+<img src="images/markdown-github.png" width="200">
+<img src="images/markdown-dark-material.png" width="200">
 
 ## Usage
 
