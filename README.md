@@ -6,7 +6,7 @@
 
 Themes are based on VSCode's markdown default styles
 
-`C:\Program Files (x86)\Microsoft VS Code\resources\app\extensions\markdown\media\markdown.css`
+    C:\Program Files (x86)\Microsoft VS Code\resources\app\extensions\markdown\media\markdown.css
 
 ## Themes
 
@@ -20,6 +20,12 @@ Themes are based on VSCode's markdown default styles
 
   - markdown-github-pandoc.html : for vscode-pandoc extension
   - markdown-pdf.css : for MarkdownPDF extension
+
+## Preview
+
+![markdown-light](images/markdown-light.png)
+![markdown-github](images/markdown-github.png)
+![markdown-dark-material](images/markdown-dark-material.png)
 
 ## Usage
 
@@ -43,6 +49,7 @@ Copy files to your computer. Edit `Settings.json` in [Settings File Location](ht
 // Extension - vscode-pandoc
 "pandoc.htmlOptString": "-s -f markdown_github -t html5 -H [YOUR_PATH]/vscode-markdown-css/markdown-github-pandoc.html",
 ```
+
 
 ## License
 
