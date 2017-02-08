@@ -26,9 +26,15 @@ Themes are based on VSCode's markdown default styles
 Copy files to your computer. Edit `Settings.json` in [Settings File Location](https://code.visualstudio.com/Docs/customization/userandworkspace#_settings-file-locations) like below :
 
 ```json
-// Preview Setting
+// Preview Settings
+// Github style for all VSCode theme
 "markdown.styles": [
     "[YOUR_PATH]/vscode-markdown-css/markdown-github.css"
+],
+// Light/Dark style for Light/Dark VSCode theme
+"markdown.styles": [
+    "[YOUR_PATH]/vscode-markdown-css/markdown-light.css",
+    "[YOUR_PATH]/vscode-markdown-css/markdown-dark-material.css"
 ],
 // Extension - MarkdownPDF
 "markdown-pdf.styles": [
