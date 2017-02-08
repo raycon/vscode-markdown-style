@@ -46,4 +46,4 @@ Copy files to your computer. Edit `Settings.json` in [Settings File Location](ht
 
 ## License
 
-    Licensed under the [MIT](LICENSE.md) License.
+Licensed under the [MIT](LICENSE.md) License.
