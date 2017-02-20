@@ -682,6 +682,8 @@ hr {
 .vscode-dark,
 .vscode-high-contrast {
     color: #333;
+    background: white;
+    padding: 0 25px;
 }
 
 .vscode-light code,
