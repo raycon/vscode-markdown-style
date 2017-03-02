@@ -12,22 +12,22 @@ Themes are based on VSCode's markdown default styles
 
 - Preview Theme
 
-  - markdown-light.css : light theme.
-  - markdown-github.css : based on [@sinderesorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
-  - markdown-dark-material.css : for [Material-theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
+  - `markdown-light.` : light theme.
+  - `markdown-github.css` : based on [@sinderesorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
+  - `markdown-dark-material.css` : for [Material-theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 
 - Extension Theme
 
-  - markdown-github-pandoc.html : for vscode-pandoc extension
-  - markdown-pdf.css : for MarkdownPDF extension
+  - `markdown-github-pandoc.html` : for vscode-pandoc extension
+  - `markdown-pdf.css` : for MarkdownPDF extension
 
 ## Preview
 
 ![Github](images/markdown-github.png)
 
-![Github](images/markdown-light.png)
+![Light](images/markdown-light.png)
 
-![Github](images/markdown-dark-material.png)
+![Dark-Material](images/markdown-dark-material.png)
 
 ## Usage
 
@@ -51,7 +51,6 @@ Copy files to your computer. Edit `Settings.json` in [Settings File Location](ht
 // Extension - vscode-pandoc
 "pandoc.htmlOptString": "-s -f markdown_github -t html5 -H [YOUR_PATH]/vscode-markdown-css/markdown-github-pandoc.html",
 ```
-
 
 ## License
 
