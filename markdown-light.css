@@ -1,15 +1,26 @@
-.vscode-light {
-	color: #333;
-}
-
 .vscode-light a {
 	color: #2980b9;
+}
+
+.vscode-light h1,
+.vscode-light h2,
+.vscode-light h3,
+.vscode-light h4,
+.vscode-light h5,
+.vscode-light h6 {
+	font-weight: 600;
+}
+
+.vscode-light,
+.vscode-light pre code {
+	color: #333;
 }
 
 .vscode-light code {
 	color: #c0392b;
 }
 
+.vscode-light pre:not(.hljs),
 .vscode-light code>div {
 	color: #333;
 	background-color: #f8f8f8;
