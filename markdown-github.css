@@ -678,44 +678,82 @@ hr {
 
 /** Theming **/
 
-.vscode-light,
-.vscode-dark,
-.vscode-high-contrast {
+body {
     color: #333;
     background: white;
     padding: 0 25px;
 }
 
-.vscode-light code,
+.vscode-light,
+.vscode-light pre code {
+    color: #333;
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+    color: #333;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+    color: #333;
+}
+
+.vscode-light code {
+    color: #333;
+}
+
 .vscode-dark code {
     color: #333;
 }
 
-.vscode-light code>div,
-.vscode-dark code>div,
-.vscode-high-contrast code>div {
-    background-color: transparent;
+.vscode-light pre:not(.hljs),
+.vscode-light code>div {
+    background-color: #F6F8FA;
 }
 
-.vscode-light table>thead>tr>th,
+.vscode-dark pre:not(.hljs),
+.vscode-dark code>div {
+    background-color: #F6F8FA;
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code>div {
+    background-color: #F6F8FA;
+}
+
+.vscode-high-contrast h1 {
+    border-color: transparent;
+}
+
+.vscode-light table>thead>tr>th {
+    border-color: #EAECEF;
+}
+
 .vscode-dark table>thead>tr>th {
-    border-color: rgba(255, 255, 255, 0.69);
+    border-color: #EAECEF;
 }
 
 .vscode-light h1,
 .vscode-light hr,
 .vscode-light table>tbody>tr+tr>td {
-    border-color: #eee;
+    border-color: #EAECEF;
 }
 
 .vscode-dark h1,
 .vscode-dark hr,
 .vscode-dark table>tbody>tr+tr>td {
-    border-color: rgba(255, 255, 255, 0.18);
+    border-color: #EAECEF;
 }
 
 .vscode-light blockquote,
-.vscode-dark blockquote,
+.vscode-dark blockquote {
+    padding: 0 1em;
+    color: #777;
+    border-left: 0.25em solid #ddd;
+    background: transparent;
+}
+
 .vscode-high-contrast blockquote {
     padding: 0 1em;
     color: #777;
