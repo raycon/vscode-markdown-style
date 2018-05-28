@@ -2,8 +2,6 @@
 
 > VSCode markdown css themes
 
-## Markdown Preview Themes
-
 Themes are based on VSCode's markdown default styles
 
     C:\Program Files\Microsoft VS Code\resources\app\extensions\markdown-language-features\media\markdown.css
@@ -12,13 +10,13 @@ Themes are based on VSCode's markdown default styles
 
 - Preview Theme
 
-  - `markdown-light.` : light theme.
-  - `markdown-github.css` : based on [@sinderesorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
-  - `markdown-dark-material.css` : for [Material-theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
+  - `light-default.css` : light theme.
+  - `dark-material.css` : for [Material-theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
+  - `github.css` : based on [@sinderesorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
 
 - Extension Theme
 
-  - `markdown-github-pandoc.html` : for vscode-pandoc extension
+  - `pandoc-github.html` : for vscode-pandoc extension
   - `markdown-pdf.css` : for MarkdownPDF extension
 
 ## Usage
@@ -32,7 +30,7 @@ Github style:
 // Preview Settings
 // Github style for all VSCode theme
 "markdown.styles": [
-    "markdown-github.css"
+    "github.css"
 ]
 ```
 
@@ -41,12 +39,12 @@ Light, Dark style:
 ```json
 // Light/Dark style for Light/Dark VSCode theme
 "markdown.styles": [
-    "markdown-light.css",
-    "markdown-dark-material.css"
+    "light-default.css",
+    "dark-material.css"
 ]
 ```
 
-[MarkdownPDF](https://github.com/yzane/vscode-markdown-pdf) style:
+MarkdownPDF style:
 
 ```json
 // Extension - MarkdownPDF
@@ -55,11 +53,11 @@ Light, Dark style:
 ]
 ```
 
-[Pandoc] style:
+Pandoc style:
 
 ```json
 // Extension - vscode-pandoc
-"pandoc.htmlOptString": "-s -f markdown_github -t html5 -H [YOUR_PATH]/markdown-github-pandoc.html",
+"pandoc.htmlOptString": "-s -f markdown_github -t html5 -H [YOUR_PATH]/pandoc-github.html",
 ```
 
 ## License
