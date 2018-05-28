@@ -21,14 +21,6 @@ Themes are based on VSCode's markdown default styles
   - `markdown-github-pandoc.html` : for vscode-pandoc extension
   - `markdown-pdf.css` : for MarkdownPDF extension
 
-## Preview
-
-![Github](images/markdown-github.png)
-
-![Light](images/markdown-light.png)
-
-![Dark-Material](images/markdown-dark-material.png)
-
 ## Usage
 
 Copy files to your computer. Edit `Settings.json` in [Settings File Location](https://code.visualstudio.com/Docs/customization/userandworkspace#_settings-file-locations) like below :
