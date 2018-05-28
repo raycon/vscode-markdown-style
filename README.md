@@ -1,6 +1,4 @@
-# vscode-markdown-css
-
-> VSCode markdown css themes
+# vscode-markdown-style
 
 Themes are based on VSCode's markdown default styles
 
