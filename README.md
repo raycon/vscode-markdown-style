@@ -6,7 +6,7 @@
 
 Themes are based on VSCode's markdown default styles
 
-    C:\Program Files (x86)\Microsoft VS Code\resources\app\extensions\markdown\media\markdown.css
+    C:\Program Files\Microsoft VS Code\resources\app\extensions\markdown-language-features\media\markdown.css
 
 ## Themes
 
@@ -23,25 +23,43 @@ Themes are based on VSCode's markdown default styles
 
 ## Usage
 
-Copy files to your computer. Edit `Settings.json` in [Settings File Location](https://code.visualstudio.com/Docs/customization/userandworkspace#_settings-file-locations) like below :
+- Copy css files to **root of your current workspace**.
+- Edit `Settings.json` (**File > Preferences > Settings**) like below :
+
+Github style:
 
 ```json
 // Preview Settings
 // Github style for all VSCode theme
 "markdown.styles": [
-    "[YOUR_PATH]/vscode-markdown-css/markdown-github.css"
-],
+    "markdown-github.css"
+]
+```
+
+Light, Dark style:
+
+```json
 // Light/Dark style for Light/Dark VSCode theme
 "markdown.styles": [
-    "[YOUR_PATH]/vscode-markdown-css/markdown-light.css",
-    "[YOUR_PATH]/vscode-markdown-css/markdown-dark-material.css"
-],
+    "markdown-light.css",
+    "markdown-dark-material.css"
+]
+```
+
+[MarkdownPDF](https://github.com/yzane/vscode-markdown-pdf) style:
+
+```json
 // Extension - MarkdownPDF
 "markdown-pdf.styles": [
-    "[YOUR_PATH]/vscode-markdown-css/markdown-pdf.css"
-],
+    "[YOUR_PATH]/markdown-pdf.css"
+]
+```
+
+[Pandoc] style:
+
+```json
 // Extension - vscode-pandoc
-"pandoc.htmlOptString": "-s -f markdown_github -t html5 -H [YOUR_PATH]/vscode-markdown-css/markdown-github-pandoc.html",
+"pandoc.htmlOptString": "-s -f markdown_github -t html5 -H [YOUR_PATH]/markdown-github-pandoc.html",
 ```
 
 ## License
